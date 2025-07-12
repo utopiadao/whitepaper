@@ -1,0 +1,57 @@
+/* 水印样式优化 */
+
+/* 为移动端文档内容添加底部间距 */
+@media (max-width: 768px) {
+  .VPDoc .container {
+    padding-bottom: 80px !important;
+  }
+  
+  /* 确保内容不被水印遮挡 */
+  .vp-doc {
+    margin-bottom: 60px;
+  }
+}
+
+/* 水印动画效果 */
+@keyframes watermarkFade {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 页面加载时水印淡入 */
+.footer-watermark {
+  animation: watermarkFade 1s ease-out;
+}
+
+/* 滚动时的视差效果 */
+@media (max-width: 768px) {
+  .footer-watermark {
+    transition: transform 0.3s ease-out;
+  }
+  
+  /* 快速滚动时稍微移动 */
+  body.scrolling .footer-watermark {
+    transform: translateY(5px);
+  }
+}
+
+/* 优化水印在不同背景下的可见性 */
+.footer-watermark::before {
+  content: '';
+  position: absolute;
+  inset: -10px;
+  background: radial-gradient(
+    circle at center,
+    rgba(229, 160, 0, 0.08) 0%,
+    transparent 70%
+  );
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0.5;
+}

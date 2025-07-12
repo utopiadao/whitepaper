@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "types": ["vite/client", "node"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["docs/.vitepress/*"],
+      "~/*": ["docs/*"]
+    }
+  },
+  "include": [
+    "docs/**/*.ts",
+    "docs/**/*.js",
+    "docs/**/*.d.ts",
+    "docs/**/*.tsx",
+    "docs/**/*.vue",
+    "docs/.vitepress/**/*.ts",
+    "docs/.vitepress/**/*.js",
+    "docs/.vitepress/**/*.vue"
+  ],
+  "exclude": [
+    "node_modules",
+    "docs/.vitepress/dist",
+    "docs/.vitepress/cache"
+  ]
+}

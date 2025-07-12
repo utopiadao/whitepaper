@@ -1,0 +1,568 @@
+/* ===========================
+   乌托邦视觉主题 - 基于整体视觉定位
+   =========================== */
+
+/* 全局字体设置 - K2D */
+:root {
+  --vp-font-family-base: 'K2D', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  --vp-font-family-mono: 'Fira Code', 'Monaco', 'Cascadia Code', 'Roboto Mono', 'K2D', monospace;
+}
+
+/* 颜色变量定义 */
+:root {
+  /* 主色调 */
+  --utopia-bg-pure: #000000;        /* 纯黑 */
+  --utopia-bg-dark: #141722;        /* 深蓝灰 - 页面背景 */
+  --utopia-bg-nav: #20222A;         /* 深灰蓝 - 导航栏背景 */
+  --utopia-text-main: #EEE8DE;      /* 浅米色 - 主文本 */
+  --utopia-text-secondary: #2C2E37; /* 中等灰 - 次要文本 */
+  --utopia-accent-gold: #E5A000;    /* 金黄色 - 重点强调 */
+  --utopia-accent-light: #F8CC82;   /* 浅金色 - 次要强调 */
+  
+  /* VitePress 变量覆盖 */
+  --vp-c-bg: var(--utopia-bg-dark);
+  --vp-c-bg-alt: var(--utopia-bg-nav);
+  --vp-c-bg-elv: var(--utopia-bg-nav);
+  --vp-c-bg-soft: var(--utopia-bg-nav);
+  
+  --vp-c-text-1: var(--utopia-text-main);
+  --vp-c-text-2: rgba(238, 232, 222, 0.85);
+  --vp-c-text-3: var(--utopia-text-secondary);
+  
+  --vp-c-brand-1: var(--utopia-accent-gold);
+  --vp-c-brand-2: var(--utopia-accent-light);
+  --vp-c-brand-3: var(--utopia-accent-light);
+  
+  --vp-c-border: rgba(229, 160, 0, 0.15);
+  --vp-c-divider: rgba(229, 160, 0, 0.1);
+  
+  /* 代码块 - 只设置辅助元素，不覆盖主题 */
+  --vp-code-line-highlight-color: rgba(229, 160, 0, 0.1);
+  --vp-code-line-number-color: rgba(238, 232, 222, 0.3);
+  --vp-code-copy-code-hover-bg: rgba(229, 160, 0, 0.2);
+  --vp-code-copy-code-active-text: var(--utopia-accent-gold);
+  
+  /* 导航栏 */
+  --vp-nav-bg-color: var(--utopia-bg-nav);
+  
+  /* 侧边栏 */
+  --vp-sidebar-bg-color: var(--utopia-bg-nav);
+}
+
+/* 基础样式 */
+html {
+  background-color: var(--utopia-bg-dark);
+  color: var(--utopia-text-main);
+}
+
+body {
+  font-family: var(--vp-font-family-base);
+}
+
+/* 确保所有元素使用 K2D 字体 */
+.VPDoc,
+.vp-doc,
+h1, h2, h3, h4, h5, h6,
+p, span, div, a, li, td, th,
+.VPNavBar,
+.VPSidebar,
+.VPButton,
+.vp-doc blockquote,
+.vp-doc table {
+  font-family: var(--vp-font-family-base) !important;
+}
+
+/* 代码块保持等宽字体但也包含 K2D 作为备选 */
+code, pre, .vp-code {
+  font-family: var(--vp-font-family-mono) !important;
+}
+
+/* 移动端表格优化 */
+.vp-doc table {
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  white-space: nowrap;
+  font-size: 14px;
+  margin: 1.5rem 0;
+}
+
+/* 表格单元格样式 */
+.vp-doc th,
+.vp-doc td {
+  text-align: center !important;
+  padding: 12px 16px;
+}
+
+/* 移动端下的表格样式 */
+@media (max-width: 768px) {
+  .vp-doc table {
+    font-size: 13px;
+    margin: 1rem 0;
+    width: 100%;
+  }
+  
+  .vp-doc th,
+  .vp-doc td {
+    padding: 8px 12px;
+    min-width: 80px;
+  }
+  
+}
+
+/* 首页样式 */
+.VPHome {
+  background: #141722;  /* 使用纯色背景 */
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;  /* 只隐藏水平溢出 */
+}
+
+/* 确保内容在粒子背景之上 */
+.VPHome .VPHomeContent {
+  position: relative;
+  z-index: 1;
+}
+
+/* 修复导航栏在首页的显示 */
+.VPHome .VPNav {
+  position: relative;
+  z-index: 10;
+}
+
+
+/* 隐藏默认的 hero image */
+.VPHero .image {
+  display: none;
+}
+
+/* Hero 区域样式 */
+.VPHero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  margin-top: -64px;
+  padding-top: 64px;
+}
+
+/* tagline 样式 */
+.VPHero .tagline {
+  margin-top: 1.2rem;
+  margin-bottom: 0;
+  color: rgba(238, 232, 222, 0.85);
+  font-size: 1.15rem;
+  line-height: 1.7;
+  font-style: normal;
+  font-weight: 400;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 主标题金色渐变效果 */
+.VPHero .name {
+  font-size: clamp(3rem, 8vw, 5rem);
+  background: linear-gradient(135deg, #E5A000, #F8CC82);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0 0 40px rgba(229, 160, 0, 0.5);
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+
+/* 副标题样式 */
+.VPHero .text {
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  color: #F8CC82;
+  opacity: 0.95;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+/* 调整按钮位置 */
+.VPHero .actions {
+  margin-top: 2.5rem !important;  /* 与 tagline 保持适当间距 */
+}
+
+/* 标题层级样式 - 仅应用于文档内容 */
+.vp-doc h1 {
+  color: var(--utopia-text-main);
+  border-bottom: 2px solid var(--utopia-accent-gold);
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+}
+
+.vp-doc h2 {
+  color: var(--utopia-text-main);
+  border-left: 4px solid var(--utopia-accent-light);
+  padding-left: 1em;
+  margin-left: -1em;
+}
+
+.vp-doc h3 {
+  color: var(--utopia-text-main);
+}
+
+/* 重要文本高亮 */
+.vp-doc strong {
+  color: var(--utopia-accent-gold);
+  font-weight: 600;
+}
+
+/* 链接样式 */
+.vp-doc a {
+  color: var(--utopia-accent-gold);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.vp-doc a:hover {
+  color: var(--utopia-accent-light);
+  text-decoration: underline;
+}
+
+/* 按钮样式 */
+.VPButton {
+  background-color: var(--utopia-accent-gold);
+  color: var(--utopia-bg-pure);
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.VPButton:hover {
+  background-color: var(--utopia-accent-light);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(229, 160, 0, 0.3);
+}
+
+/* 首页按钮特殊样式 */
+.VPHero .VPButton.brand {
+  background-color: var(--utopia-accent-gold);
+  color: var(--utopia-bg-dark);
+  border: 2px solid var(--utopia-accent-gold);
+  font-weight: 700;
+}
+
+.VPHero .VPButton.brand:hover {
+  background-color: transparent;
+  color: var(--utopia-accent-gold);
+  border-color: var(--utopia-accent-light);
+  box-shadow: 0 0 20px rgba(229, 160, 0, 0.4);
+}
+
+.VPHero .VPButton.alt {
+  background-color: transparent;
+  color: var(--utopia-text-main);
+  border: 2px solid rgba(238, 232, 222, 0.3);
+}
+
+.VPHero .VPButton.alt:hover {
+  background-color: rgba(238, 232, 222, 0.1);
+  color: var(--utopia-accent-gold);
+  border-color: var(--utopia-accent-gold);
+}
+
+/* 卡片样式 */
+.custom-block {
+  background-color: var(--utopia-bg-nav);
+  border: 1px solid var(--utopia-accent-gold);
+  border-radius: 8px;
+  padding: 1.5em;
+  margin: 1em 0;
+}
+
+/* 引用块样式 */
+blockquote {
+  background-color: var(--utopia-bg-dark);
+  border-left: 4px solid var(--utopia-accent-light);
+  margin: 1em 0;
+  padding: 1em 1.5em;
+  color: rgba(238, 232, 222, 0.9);
+}
+
+/* 代码块样式优化 */
+.vp-doc div[class*='language-'] {
+  background-color: #1A1B26 !important;  /* 深蓝紫色背景 */
+  border: 1px solid rgba(229, 160, 0, 0.25);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.vp-doc div[class*='language-'] code {
+  background-color: transparent !important;
+  font-family: 'Fira Code', 'Monaco', 'Cascadia Code', 'Roboto Mono', monospace;
+}
+
+/* 重新定义代码块背景变量 */
+.dark {
+  --vp-code-block-bg: #1A1B26 !important;
+}
+
+/* 行内代码样式 */
+.vp-doc :not(pre) > code {
+  background-color: rgba(229, 160, 0, 0.15);  /* 稍微加深背景 */
+  color: #FFD700;  /* 更亮的金色 */
+  padding: 0.25em 0.5em;  /* 稍微增加内边距 */
+  border-radius: 4px;  /* 稍微增加圆角 */
+  border: 1px solid rgba(229, 160, 0, 0.3);  /* 添加边框 */
+  font-size: 0.9em;
+  font-family: 'Fira Code', 'Monaco', 'Cascadia Code', 'Roboto Mono', monospace;
+  font-weight: 500;
+}
+
+/* 代码块语言标签 */
+.vp-doc div[class*='language-'] .lang {
+  color: #FFD700;  /* 更亮的金色 */
+  background-color: rgba(229, 160, 0, 0.15);
+  padding: 2px 8px;
+  border-radius: 0 0 4px 4px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* 代码块复制按钮 */
+.vp-doc div[class*='language-'] button.copy {
+  background-color: rgba(15, 17, 22, 0.8);  /* 深色背景 */
+  border: 1px solid rgba(229, 160, 0, 0.3);
+  color: var(--utopia-accent-gold);
+  border-radius: 4px;
+}
+
+.vp-doc div[class*='language-'] button.copy:hover {
+  background-color: rgba(229, 160, 0, 0.2);
+  border-color: var(--utopia-accent-gold);
+  color: #FFD700;
+}
+
+/* 代码高亮颜色 */
+.vp-doc div[class*='language-'] .highlighted {
+  background-color: rgba(229, 160, 0, 0.08);  /* 减淡高亮背景 */
+}
+
+/* 代码块行号 */
+.vp-doc div[class*='language-'] .line-numbers-wrapper {
+  color: rgba(238, 232, 222, 0.4);
+  background-color: rgba(30, 33, 41, 0.6);
+  border-right: 1px solid rgba(229, 160, 0, 0.15);
+}
+
+
+/* 语法高亮配色 */
+.vp-code-group .tabs {
+  background-color: #1E2129;  /* 与代码块背景一致 */
+  border-bottom: 1px solid rgba(229, 160, 0, 0.3);
+  border-radius: 8px 8px 0 0;
+}
+
+.vp-code-group .tabs label {
+  color: rgba(238, 232, 222, 0.7);
+  padding: 8px 16px;
+  transition: all 0.2s ease;
+}
+
+.vp-code-group .tabs label.active {
+  color: #FFD700;
+  background-color: rgba(229, 160, 0, 0.1);
+  border-bottom-color: var(--utopia-accent-gold);
+}
+
+.vp-code-group .tabs label:hover:not(.active) {
+  color: var(--utopia-accent-gold);
+  background-color: rgba(229, 160, 0, 0.05);
+}
+
+/* 表格样式 */
+.vp-doc table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.vp-doc tr:nth-child(odd) {
+  background-color: var(--utopia-bg-dark);
+}
+
+.vp-doc tr:nth-child(even) {
+  background-color: var(--utopia-bg-nav);
+}
+
+.vp-doc th {
+  background-color: var(--utopia-accent-gold);
+  color: var(--utopia-bg-pure);
+  font-weight: 600;
+  padding: 0.75em 1em;
+}
+
+.vp-doc td {
+  padding: 0.75em 1em;
+  border-bottom: 1px solid rgba(229, 160, 0, 0.1);
+}
+
+/* 导航栏优化 */
+.VPNav {
+  background-color: var(--utopia-bg-nav);
+  border-bottom: 1px solid rgba(229, 160, 0, 0.15);
+}
+
+.VPNavBarTitle .title {
+  color: var(--utopia-text-main);
+}
+
+/* Logo放大50% */
+.VPNavBarTitle .logo {
+  height: calc(var(--vp-nav-logo-height, 24px) * 1.5);
+  width: auto;
+  margin-left: -8px;  /* logo向左移动 */
+  background: none !important;  /* 确保没有背景色 */
+}
+
+/* 确保logo容器也相应调整 */
+.VPNavBarTitle {
+  display: flex;
+  align-items: center;
+  background: none !important;  /* 确保容器没有背景色 */
+}
+
+/* 移动端logo设置 */
+@media (max-width: 768px) {
+  .VPNavBarTitle .logo {
+    height: calc(var(--vp-nav-logo-height, 24px) * 1.5);
+    margin-left: -4px;  /* 移动端稍微左移 */
+  }
+}
+
+/* 侧边栏优化 */
+.VPSidebar {
+  background-color: var(--utopia-bg-nav);
+}
+
+.VPSidebarItem.is-active > .item > .link > .text {
+  color: var(--utopia-accent-gold);
+}
+
+.VPSidebarItem .link:hover .text {
+  color: var(--utopia-accent-light);
+}
+
+/* 侧边栏活动指示器样式 */
+.VPSidebarItem.is-active > .item > .indicator {
+  background-color: var(--utopia-accent-gold);
+  width: 3px;
+  height: 24px;
+}
+
+/* 滚动条样式 */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--utopia-bg-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--utopia-accent-gold);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--utopia-accent-light);
+}
+
+/* 进度条 */
+.VPLocalNav {
+  border-bottom: 2px solid var(--utopia-accent-gold);
+}
+
+/* 信息框样式 */
+.vp-doc .custom-block.tip {
+  background-color: rgba(229, 160, 0, 0.1);
+  border-color: var(--utopia-accent-gold);
+}
+
+.vp-doc .custom-block.warning {
+  background-color: rgba(248, 204, 130, 0.1);
+  border-color: var(--utopia-accent-light);
+}
+
+.vp-doc .custom-block.danger {
+  background-color: rgba(44, 46, 55, 0.5);
+  border-color: var(--utopia-text-secondary);
+}
+
+/* 搜索框样式 */
+.VPLocalSearchBox {
+  --vp-local-search-bg: var(--utopia-bg-nav);
+  --vp-local-search-border-color: var(--utopia-accent-gold);
+  --vp-local-search-text-color: var(--utopia-text-main);
+  --vp-local-search-highlight-bg: var(--utopia-accent-gold);
+  --vp-local-search-highlight-text: var(--utopia-bg-pure);
+}
+
+/* 页脚样式 */
+.VPFooter {
+  background-color: var(--utopia-bg-pure);
+  border-top: 1px solid rgba(229, 160, 0, 0.15);
+  color: var(--utopia-text-secondary);
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.8em;
+  }
+  
+  h2 {
+    font-size: 1.4em;
+  }
+  
+  .vp-doc strong {
+    display: inline-block;
+    padding: 0 0.2em;
+  }
+}
+
+/* 加载动画 */
+@keyframes goldPulse {
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
+
+.loading-indicator {
+  color: var(--utopia-accent-gold);
+  animation: goldPulse 1.5s ease-in-out infinite;
+}
+
+/* 过渡效果 */
+* {
+  transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* 选中文本样式 */
+::selection {
+  background-color: var(--utopia-accent-gold);
+  color: var(--utopia-bg-pure);
+}
+
+::-moz-selection {
+  background-color: var(--utopia-accent-gold);
+  color: var(--utopia-bg-pure);
+}
+
+/* 隐藏主题切换按钮 */
+.VPNavBarAppearance,
+.VPSwitchAppearance {
+  display: none !important;
+}

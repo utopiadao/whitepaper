@@ -1,0 +1,156 @@
+/* Element Plus 乌托邦主题配置 */
+html {
+  /* Element Plus 颜色变量 */
+  --el-color-primary: #E5A000;
+  --el-color-primary-light-3: #F8CC82;
+  --el-color-primary-light-5: #FAD9A0;
+  --el-color-primary-light-7: #FCE5BD;
+  --el-color-primary-light-8: #FDF0D9;
+  --el-color-primary-light-9: #FEF8EC;
+  --el-color-primary-dark-2: #B88000;
+  
+  --el-color-success: #E5A000;
+  --el-color-warning: #F8CC82;
+  --el-color-danger: #2C2E37;
+  --el-color-info: #20222A;
+  
+  /* 背景色 */
+  --el-bg-color: #141722;
+  --el-bg-color-page: #141722;
+  --el-bg-color-overlay: #20222A;
+  
+  /* 文本色 */
+  --el-text-color-primary: #EEE8DE;
+  --el-text-color-regular: rgba(238, 232, 222, 0.85);
+  --el-text-color-secondary: rgba(238, 232, 222, 0.7);
+  --el-text-color-placeholder: rgba(238, 232, 222, 0.5);
+  --el-text-color-disabled: rgba(238, 232, 222, 0.3);
+  
+  /* 边框色 */
+  --el-border-color: rgba(229, 160, 0, 0.15);
+  --el-border-color-light: rgba(229, 160, 0, 0.1);
+  --el-border-color-lighter: rgba(229, 160, 0, 0.05);
+  --el-border-color-extra-light: rgba(229, 160, 0, 0.03);
+  --el-border-color-dark: rgba(229, 160, 0, 0.2);
+  
+  /* 填充色 */
+  --el-fill-color: rgba(229, 160, 0, 0.1);
+  --el-fill-color-light: rgba(229, 160, 0, 0.05);
+  --el-fill-color-lighter: rgba(229, 160, 0, 0.03);
+  --el-fill-color-extra-light: rgba(229, 160, 0, 0.01);
+  --el-fill-color-dark: rgba(229, 160, 0, 0.15);
+  --el-fill-color-darker: rgba(229, 160, 0, 0.2);
+  --el-fill-color-blank: #141722;
+  
+  /* 阴影 */
+  --el-box-shadow: 0 2px 4px rgba(229, 160, 0, 0.1);
+  --el-box-shadow-light: 0 2px 12px 0 rgba(229, 160, 0, 0.05);
+  --el-box-shadow-lighter: 0 2px 8px 0 rgba(229, 160, 0, 0.03);
+  --el-box-shadow-dark: 0 2px 16px 0 rgba(229, 160, 0, 0.15);
+}
+
+/* Element Plus 组件样式覆盖 */
+
+/* 按钮 */
+.el-button--primary {
+  background-color: var(--utopia-accent-gold);
+  border-color: var(--utopia-accent-gold);
+  color: var(--utopia-bg-pure);
+}
+
+.el-button--primary:hover {
+  background-color: var(--utopia-accent-light);
+  border-color: var(--utopia-accent-light);
+}
+
+/* 输入框 */
+.el-input__inner {
+  background-color: var(--utopia-bg-nav);
+  border-color: rgba(229, 160, 0, 0.2);
+  color: var(--utopia-text-main);
+}
+
+.el-input__inner:focus {
+  border-color: var(--utopia-accent-gold);
+}
+
+/* 卡片 */
+.el-card {
+  background-color: var(--utopia-bg-nav);
+  border: 1px solid var(--utopia-accent-gold);
+  color: var(--utopia-text-main);
+}
+
+/* 表格 */
+.el-table {
+  background-color: transparent;
+}
+
+.el-table th {
+  background-color: var(--utopia-accent-gold);
+  color: var(--utopia-bg-pure);
+}
+
+.el-table tr {
+  background-color: var(--utopia-bg-dark);
+}
+
+.el-table tr:nth-child(even) {
+  background-color: var(--utopia-bg-nav);
+}
+
+/* 消息提示 */
+.el-message {
+  background-color: var(--utopia-bg-nav);
+  border: 1px solid var(--utopia-accent-gold);
+  color: var(--utopia-text-main);
+}
+
+/* 弹窗 */
+.el-dialog {
+  background-color: var(--utopia-bg-nav);
+  border: 1px solid var(--utopia-accent-gold);
+}
+
+.el-dialog__title {
+  color: var(--utopia-text-main);
+}
+
+/* 选择器 */
+.el-select-dropdown {
+  background-color: var(--utopia-bg-nav);
+  border: 1px solid var(--utopia-accent-gold);
+}
+
+.el-select-dropdown__item.hover,
+.el-select-dropdown__item:hover {
+  background-color: rgba(229, 160, 0, 0.1);
+}
+
+/* 开关 */
+.el-switch.is-checked .el-switch__core {
+  background-color: var(--utopia-accent-gold);
+  border-color: var(--utopia-accent-gold);
+}
+
+/* 进度条 */
+.el-progress-bar__inner {
+  background-color: var(--utopia-accent-gold);
+}
+
+/* 标签 */
+.el-tag--primary {
+  background-color: rgba(229, 160, 0, 0.1);
+  border-color: var(--utopia-accent-gold);
+  color: var(--utopia-accent-gold);
+}
+
+/* 分页 */
+.el-pagination button:hover {
+  color: var(--utopia-accent-gold);
+}
+
+.el-pagination .is-active {
+  background-color: var(--utopia-accent-gold);
+  color: var(--utopia-bg-pure);
+}

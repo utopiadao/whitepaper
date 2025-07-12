@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Build output
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Misc
+*.pdf
+*.epub
+*.mobi
+
+# Backup files
+*_backup_*
+*.backup
+*.bak
+
+# Test files
+test-*.md
+*-test.md
+
+# Temporary files
+*.tmp
+.temp/
