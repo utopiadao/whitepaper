@@ -14,7 +14,7 @@ La richesse est l'unité de base de la coopération sociale et aussi le porteur 
 
 Utopia est exactement la réponse à ce statu quo - un réseau de richesse libre basé sur le consensus fondé sur des contrats intelligents blockchain. Ce n'est pas seulement un système d'investissement, mais un écosystème de flux de valeur autonome en évolution qui redéfinit les règles de base de la création, distribution et partage de richesse.
 
-Dans cette nouvelle dimension, chaque participant est à la fois un créateur de valeur et un bénéficiaire de valeur. Grâce à des mécanismes centraux soigneusement conçus tels que les pools de résonance, le consensus régional, les nœuds de cluster et les redémarrages de risque, Utopia réalise un modèle de circulation de valeur sans précédent qui combine étroitement l'agrégation individuelle avec la croissance collective.
+Dans cette nouvelle dimension, chaque participant est à la fois un créateur de valeur et un bénéficiaire de valeur. Grâce à des mécanismes centraux soigneusement conçus tels que les pools de résonance, le consensus régional, les nœuds de prospérité et les redémarrages phénix, Utopia réalise un modèle de circulation de valeur sans précédent qui combine étroitement l'agrégation individuelle avec la croissance collective.
 
 Ce n'est pas seulement une révolution financière, mais aussi une révolution idéologique. Utopia nous permet de repenser la nature de la richesse, le potentiel de la coopération et le pouvoir du consensus. Dans ce monde transparent garanti par des algorithmes, la confiance ne sera plus une ressource rare, et la coopération atteindra de nouveaux sommets.
 

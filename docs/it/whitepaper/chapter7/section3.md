@@ -57,7 +57,7 @@ contract UtopiaCore {
 ### Meccanismo di Operazione Autonoma
 
 - **Esecuzione Automatizzata**: Tutte le funzioni principali vengono eseguite automaticamente tramite smart contract, senza intervento umano
-- **Guidato da Algoritmi**: Le condizioni di riavvio del rischio sono completamente determinate da algoritmi, senza fattori soggettivi
+- **Guidato da Algoritmi**: Le condizioni di riavvio fenice sono completamente determinate da algoritmi, senza fattori soggettivi
 - **Regole Trasparenti**: Tutta la logica di business è codificata negli smart contract, verificabile pubblicamente
 - **Operazione Perpetua**: Una volta distribuito, il sistema opererà perpetuamente, non può essere fermato o modificato da nessuno
 

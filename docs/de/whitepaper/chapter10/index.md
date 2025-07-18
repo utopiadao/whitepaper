@@ -4,7 +4,7 @@ Zusammenfassung der Kernwerte und Zukunftsvision von Utopia, Betonung ihrer Bede
 
 Das Aufkommen von Utopia ist kein Zufall, sondern das unvermeidliche Ergebnis der kontinuierlichen Erforschung der Menschheit nach gerechteren und freieren Wertaustauschweisen. Vom frühesten Tauschhandel über Edelmetallwährungen bis hin zu Papiergeld und digitalen Zahlungen hat die Menschheit immer nach Medien und Systemen gesucht, die Werte besser tragen und übertragen können. Das Aufkommen der Blockchain-Technologie eröffnete neue Möglichkeiten für diese Erforschung, und Utopia ist ein tiefes Nachdenken und eine Praxis über das Wesen des Wertflusses auf der Grundlage dieser Technologie.
 
-Ich habe die Kernmechanismen von Utopia im Detail erläutert - Resonanz-Pool, Regionskonsen, Wohlstandsknoten und Risiko-Neustart, sowie wie sie zusammenarbeiten, um ein selbstregulierendes, sich entwickelndes Wert-Ökosystem zu schaffen. Diese Designs sind nicht nur technische Strukturen, sondern ein Überdenken des Wesens von Reichtum und menschlichen Kooperationsweisen.
+Ich habe die Kernmechanismen von Utopia im Detail erläutert - Resonanz-Pool, Regionskonsen, Wohlstandsknoten und Phönix-Neustart, sowie wie sie zusammenarbeiten, um ein selbstregulierendes, sich entwickelndes Wert-Ökosystem zu schaffen. Diese Designs sind nicht nur technische Strukturen, sondern ein Überdenken des Wesens von Reichtum und menschlichen Kooperationsweisen.
 
 Utopia gehört keiner Einzelperson oder Organisation, es gehört allen Teilnehmern, jedem, der sich nach finanzieller Freiheit sehnt. Als offenes Gedankenexperiment und technische Plattform wird seine Zukunft von allen Teilnehmern gemeinsam gestaltet, und sein Potenzial übersteigt unsere jetzige Vorstellungskraft.
 

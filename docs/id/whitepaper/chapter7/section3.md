@@ -57,7 +57,7 @@ contract UtopiaCore {
 ### Mekanisme Operasi Otonom
 
 - **Eksekusi Otomatis**: Semua fungsi inti dieksekusi secara otomatis melalui smart contract, tanpa intervensi manusia
-- **Didorong oleh Algoritma**: Kondisi restart risiko sepenuhnya ditentukan oleh algoritma, tanpa faktor subjektif
+- **Didorong oleh Algoritma**: Kondisi restart phoenix sepenuhnya ditentukan oleh algoritma, tanpa faktor subjektif
 - **Aturan Transparan**: Semua logika bisnis dikodekan dalam smart contract, dapat diverifikasi secara publik
 - **Operasi Abadi**: Setelah di-deploy, sistem akan beroperasi selamanya, tidak dapat dihentikan atau dimodifikasi oleh siapa pun
 

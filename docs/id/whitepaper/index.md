@@ -14,7 +14,7 @@ Kekayaan adalah unit dasar kerja sama sosial dan juga pembawa energi dan nilai. 
 
 Utopia adalah respons tepat terhadap status quo ini—jaringan kekayaan bebas berbasis konsensus yang didasarkan pada kontrak pintar blockchain. Ini bukan hanya sistem investasi, tetapi ekosistem aliran nilai yang berkembang secara otonom yang mendefinisikan ulang aturan dasar penciptaan, distribusi, dan berbagi kekayaan.
 
-Dalam dimensi baru ini, setiap peserta adalah baik pencipta nilai maupun penerima manfaat nilai. Melalui mekanisme inti yang dirancang dengan hati-hati seperti pool resonansi, konsensus regional, node kluster, dan restart risiko, Utopia mencapai model sirkulasi nilai yang belum pernah ada sebelumnya yang menggabungkan erat agregasi individu dengan pertumbuhan kolektif.
+Dalam dimensi baru ini, setiap peserta adalah baik pencipta nilai maupun penerima manfaat nilai. Melalui mekanisme inti yang dirancang dengan hati-hati seperti pool resonansi, konsensus regional, node kemakmuran, dan restart phoenix, Utopia mencapai model sirkulasi nilai yang belum pernah ada sebelumnya yang menggabungkan erat agregasi individu dengan pertumbuhan kolektif.
 
 Ini bukan hanya revolusi keuangan, tetapi juga revolusi ideologis. Utopia memungkinkan kita untuk memikirkan kembali sifat kekayaan, potensi kerja sama, dan kekuatan konsensus. Dalam dunia transparan yang dijamin oleh algoritma ini, kepercayaan tidak akan lagi menjadi sumber daya langka, dan kerja sama akan mencapai ketinggian baru.
 

@@ -57,7 +57,7 @@ contract UtopiaCore {
 ### Mécanisme d'Opération Autonome
 
 - **Exécution Automatisée** : Toutes les fonctions principales sont automatiquement exécutées via les contrats intelligents, sans intervention humaine
-- **Piloté par Algorithmes** : Les conditions de redémarrage de risque sont entièrement déterminées par des algorithmes, sans facteurs subjectifs
+- **Piloté par Algorithmes** : Les conditions de redémarrage phénix sont entièrement déterminées par des algorithmes, sans facteurs subjectifs
 - **Règles Transparentes** : Toute la logique métier est encodée dans les contrats intelligents, vérifiable publiquement
 - **Opération Perpétuelle** : Une fois déployé, le système fonctionnera perpétuellement, ne peut être arrêté ou modifié par personne
 

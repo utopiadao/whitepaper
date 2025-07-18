@@ -14,7 +14,7 @@ Wealth is the basic unit of social cooperation and also the carrier of energy an
 
 Utopia is exactly the response to this status quo—a consensus-based free wealth network based on blockchain smart contracts. It is not merely an investment system, but an autonomous evolving value flow ecosystem that redefines the basic rules of wealth creation, distribution, and sharing.
 
-In this new dimension, every participant is both a value creator and a value beneficiary. Through carefully designed core mechanisms such as resonance pools, regional consensus, cluster nodes, and risk restarts, Utopia achieves an unprecedented value circulation model that tightly combines individual aggregation with collective growth.
+In this new dimension, every participant is both a value creator and a value beneficiary. Through carefully designed core mechanisms such as resonance pools, regional consensus, prosperity nodes, and phoenix restarts, Utopia achieves an unprecedented value circulation model that tightly combines individual aggregation with collective growth.
 
 This is not only a financial revolution but also an ideological revolution. Utopia allows us to rethink the nature of wealth, the potential of cooperation, and the power of consensus. In this transparent world guaranteed by algorithms, trust will no longer be a scarce resource, and cooperation will reach new heights.
 

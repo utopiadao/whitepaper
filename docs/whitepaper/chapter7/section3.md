@@ -57,7 +57,7 @@ contract UtopiaCore {
 ### Autonomous Operation Mechanism
 
 - **Automated Execution**: All core functions are automatically executed through smart contracts, without human intervention
-- **Algorithm-Driven**: Risk restart conditions are completely determined by algorithms, without subjective factors
+- **Algorithm-Driven**: Phoenix restart conditions are completely determined by algorithms, without subjective factors
 - **Transparent Rules**: All business logic is encoded in smart contracts, publicly verifiable
 - **Perpetual Operation**: Once deployed, the system will operate perpetually, cannot be stopped or modified by anyone
 

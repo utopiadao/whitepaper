@@ -57,7 +57,7 @@ contract UtopiaCore {
 ### Autonomer Betriebsmechanismus
 
 - **Automatisierte Ausführung**: Alle Kernfunktionen werden automatisch durch Smart Contracts ausgeführt, ohne menschlichen Eingriff
-- **Algorithmus-gesteuert**: Risiko-Neustart-Bedingungen werden vollständig durch Algorithmen bestimmt, ohne subjektive Faktoren
+- **Algorithmus-gesteuert**: Phönix-Neustart-Bedingungen werden vollständig durch Algorithmen bestimmt, ohne subjektive Faktoren
 - **Transparente Regeln**: Alle Geschäftslogik ist in Smart Contracts kodiert, öffentlich verifizierbar
 - **Dauerhafter Betrieb**: Einmal bereitgestellt, wird das System dauerhaft laufen, kann von niemandem gestoppt oder modifiziert werden
 

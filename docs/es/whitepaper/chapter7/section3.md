@@ -57,7 +57,7 @@ contract UtopiaCore {
 ### Mecanismo de Operación Autónoma
 
 - **Ejecución Automatizada**: Todas las funciones principales se ejecutan automáticamente a través de contratos inteligentes, sin intervención humana
-- **Impulsado por Algoritmos**: Las condiciones de reinicio de riesgo están completamente determinadas por algoritmos, sin factores subjetivos
+- **Impulsado por Algoritmos**: Las condiciones de reinicio fénix están completamente determinadas por algoritmos, sin factores subjetivos
 - **Reglas Transparentes**: Toda la lógica de negocio está codificada en contratos inteligentes, verificable públicamente
 - **Operación Perpetua**: Una vez desplegado, el sistema operará perpetuamente, no puede ser detenido o modificado por nadie
 

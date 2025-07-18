@@ -57,7 +57,7 @@ contract UtopiaCore {
 ### Cơ chế hoạt động tự trị
 
 - **Thực thi tự động**: Tất cả các chức năng cốt lõi được thực thi tự động thông qua hợp đồng thông minh, không cần can thiệp của con người
-- **Điều khiển bằng thuật toán**: Các điều kiện khởi động lại rủi ro hoàn toàn được xác định bởi thuật toán, không có yếu tố chủ quan
+- **Điều khiển bằng thuật toán**: Các điều kiện khởi động lại phượng hoàng hoàn toàn được xác định bởi thuật toán, không có yếu tố chủ quan
 - **Quy tắc minh bạch**: Tất cả logic kinh doanh được mã hóa trong hợp đồng thông minh, có thể xác minh công khai
 - **Hoạt động vĩnh viễn**: Một khi được triển khai, hệ thống sẽ hoạt động vĩnh viễn, không thể bị dừng hoặc sửa đổi bởi bất kỳ ai
 

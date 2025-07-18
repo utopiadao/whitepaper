@@ -37,7 +37,7 @@ Users don't need to understand complex mechanisms; the system handles everything
 ### User Participation Levels
 - **Beginner Users**: Only need to understand "deposit funds, receive upon maturity"
 - **Intermediate Users**: Understand differences in returns and cycles across different dimensions
-- **Advanced Users**: Understand regional networks and aggregated node mechanisms
+- **Advanced Users**: Understand regional networks and prosperity node mechanisms
 - **Professional Users**: Understand the complete economic model and technical architecture
 
 ### Comparison with Traditional Financial Product Complexity
