@@ -5,6 +5,7 @@ export const de = {
   themeConfig: {
     logo: '/logo/logo2.svg',
     nav: [
+      { text: 'Erwachen', link: '/de/awakening/' },
       { text: 'Whitepaper', link: '/de/whitepaper/' },
       { text: 'Wirtschaftsmodell', link: '/de/economics/' }
     ],

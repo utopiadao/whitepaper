@@ -4,14 +4,20 @@ layout: home
 hero:
   name: "UTOPIA"
   text: "共識自由財富網絡"
-  tagline: "烏托邦的鳳凰重啟、區域共識和繁榮節點三大機制如何創造可持續的價值循環？這份革命性文檔將為您揭曉答案，並將深刻影響您的財富觀念。"
+  tagline: |
+    如果金錢可以完全擺脫人類的控制，世界會變成什麼樣？
+    
+    我們用代碼重新定義了財富
+    沒有銀行，沒有政府，沒有CEO
+    只有數學、透明和絕對公平
+    
+    這不是投資機會，這是思想實驗
+
+    "沒有什麼是永恆的，唯有思想長存"
   actions:
     - theme: brand
-      text: 開始閱讀
-      link: /zh-HK/whitepaper/
-    - theme: alt
-      text: 經濟模型
-      link: /zh-HK/economics/
+      text: 思想覺醒
+      link: /zh-hk/awakening/
 ---
 
 <ParticlesBackground />

@@ -5,6 +5,7 @@ export const hi = {
   themeConfig: {
     logo: '/logo/logo2.svg',
     nav: [
+      { text: 'विचार जागृति', link: '/hi/awakening/' },
       { text: 'श्वेत पत्र', link: '/hi/whitepaper/' },
       { text: 'आर्थिक मॉडल', link: '/hi/economics/' }
     ],

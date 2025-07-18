@@ -3,15 +3,21 @@ layout: home
 
 hero:
   name: "UTOPIA"
-  text: "Konsensuelles freies Wohlstandsnetzwerk"
-  tagline: "Wie schaffen die drei Kernmechanismen von Utopia - Phoenix-Neustart, regionaler Konsens und Wohlstandsknoten - einen nachhaltigen Wertzyklus? Dieses revolutionäre Dokument wird Ihnen die Antwort enthüllen und Ihr Wohlstandskonzept tiefgreifend beeinflussen."
+  text: "Konsens-freies Wohlstandsnetzwerk"
+  tagline: |
+    Wie würde die Welt aussehen, wenn sich Geld vollständig der menschlichen Kontrolle entziehen könnte?
+    
+    Wir haben Wohlstand mit Code neu definiert
+    Keine Banken, keine Regierungen, keine CEOs
+    Nur Mathematik, Transparenz und absolute Fairness
+    
+    Das ist keine Investitionsmöglichkeit, das ist ein Gedankenexperiment
+
+    "Nichts ist ewig, nur Gedanken bleiben bestehen"
   actions:
     - theme: brand
-      text: Lesen beginnen
-      link: /de/whitepaper/
-    - theme: alt
-      text: Wirtschaftsmodell
-      link: /de/economics/
+      text: Geistiges Erwachen
+      link: /de/awakening/
 ---
 
 <ParticlesBackground />

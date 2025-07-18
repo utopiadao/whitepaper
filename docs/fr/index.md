@@ -4,14 +4,20 @@ layout: home
 hero:
   name: "UTOPIA"
   text: "Réseau de Richesse Libre par Consensus"
-  tagline: "Comment les trois mécanismes centraux d'Utopia - Redémarrage Phénix, Consensus Régional et Nœuds de Prospérité - créent-ils un cycle de valeur durable ? Ce document révolutionnaire vous révélera la réponse et influencera profondément votre concept de richesse."
+  tagline: |
+    À quoi ressemblerait le monde si l'argent pouvait être complètement libéré du contrôle humain ?
+    
+    Nous avons redéfini la richesse avec du code
+    Pas de banques, pas de gouvernements, pas de PDG
+    Seulement des mathématiques, de la transparence et une équité absolue
+    
+    Ce n'est pas une opportunité d'investissement, c'est une expérience de pensée
+
+    "Rien n'est éternel, seules les pensées demeurent"
   actions:
     - theme: brand
-      text: Commencer la Lecture
-      link: /fr/whitepaper/
-    - theme: alt
-      text: Modèle Économique
-      link: /fr/economics/
+      text: Éveil Intellectuel
+      link: /fr/awakening/
 ---
 
 <ParticlesBackground />

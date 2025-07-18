@@ -5,6 +5,7 @@ export const ar = {
   themeConfig: {
     logo: '/logo/logo2.svg',
     nav: [
+      { text: 'الصحوة الفكرية', link: '/ar/awakening/' },
       { text: 'الكتاب الأبيض', link: '/ar/whitepaper/' },
       { text: 'النموذج الاقتصادي', link: '/ar/economics/' }
     ],

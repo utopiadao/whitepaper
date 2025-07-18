@@ -5,6 +5,7 @@ export const id = {
   themeConfig: {
     logo: '/logo/logo2.svg',
     nav: [
+      { text: 'Kebangkitan', link: '/id/awakening/' },
       { text: 'Buku Putih', link: '/id/whitepaper/' },
       { text: 'Model Ekonomi', link: '/id/economics/' }
     ],
