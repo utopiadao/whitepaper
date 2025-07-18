@@ -115,9 +115,7 @@ export default defineConfig({
     siteTitle: 'UTOPIA',
     
     // 社交链接
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/utopiadao/' }
-    ],
+    socialLinks: [],
 
     // 搜索
     search: {
