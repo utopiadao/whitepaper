@@ -32,7 +32,7 @@ export const zhHK = {
             { text: '3.1 共鳴池的哲學基礎', link: '/zh-HK/whitepaper/chapter3/section1' },
             { text: '3.2 四維共鳴結構', link: '/zh-HK/whitepaper/chapter3/section2' },
             { text: '3.3 共鳴放大原理', link: '/zh-HK/whitepaper/chapter3/section3' },
-            { text: '3.4 參與流程', link: '/zh-HK/whitepaper/chapter3/section4' }
+            { text: '3.4 共鳴過程', link: '/zh-HK/whitepaper/chapter3/section4' }
           ]
         },
         {

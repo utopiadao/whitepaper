@@ -32,7 +32,7 @@ export const id = {
             { text: '3.1 Dasar Filosofis Kolam Resonansi', link: '/id/whitepaper/chapter3/section1' },
             { text: '3.2 Struktur Resonansi Empat Dimensi', link: '/id/whitepaper/chapter3/section2' },
             { text: '3.3 Prinsip Amplifikasi Resonansi', link: '/id/whitepaper/chapter3/section3' },
-            { text: '3.4 Proses Partisipasi', link: '/id/whitepaper/chapter3/section4' }
+            { text: '3.4 Proses Resonansi', link: '/id/whitepaper/chapter3/section4' }
           ]
         },
         {

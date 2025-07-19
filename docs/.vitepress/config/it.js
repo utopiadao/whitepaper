@@ -32,7 +32,7 @@ export const it = {
             { text: '3.1 Fondamenti Filosofici del Pool di Risonanza', link: '/it/whitepaper/chapter3/section1' },
             { text: '3.2 Struttura di Risonanza Quadridimensionale', link: '/it/whitepaper/chapter3/section2' },
             { text: '3.3 Principio di Amplificazione della Risonanza', link: '/it/whitepaper/chapter3/section3' },
-            { text: '3.4 Processo di Partecipazione', link: '/it/whitepaper/chapter3/section4' }
+            { text: '3.4 Processo di Risonanza', link: '/it/whitepaper/chapter3/section4' }
           ]
         },
         {

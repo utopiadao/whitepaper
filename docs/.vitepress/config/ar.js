@@ -32,7 +32,7 @@ export const ar = {
             { text: '3.1 الأسس الفلسفية لمجمع الرنين', link: '/ar/whitepaper/chapter3/section1' },
             { text: '3.2 هيكل الرنين رباعي الأبعاد', link: '/ar/whitepaper/chapter3/section2' },
             { text: '3.3 مبدأ تضخيم الرنين', link: '/ar/whitepaper/chapter3/section3' },
-            { text: '3.4 عملية المشاركة', link: '/ar/whitepaper/chapter3/section4' }
+            { text: '3.4 عملية الرنين', link: '/ar/whitepaper/chapter3/section4' }
           ]
         },
         {

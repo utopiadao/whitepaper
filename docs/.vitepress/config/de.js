@@ -32,7 +32,7 @@ export const de = {
             { text: '3.1 Philosophische Grundlagen des Resonanz-Pools', link: '/de/whitepaper/chapter3/section1' },
             { text: '3.2 Vierdimensionale Resonanzstruktur', link: '/de/whitepaper/chapter3/section2' },
             { text: '3.3 Resonanzverstärkungsprinzip', link: '/de/whitepaper/chapter3/section3' },
-            { text: '3.4 Teilnahmeprozess', link: '/de/whitepaper/chapter3/section4' }
+            { text: '3.4 Resonanzprozess', link: '/de/whitepaper/chapter3/section4' }
           ]
         },
         {

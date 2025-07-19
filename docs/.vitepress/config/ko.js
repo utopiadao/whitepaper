@@ -32,7 +32,7 @@ export const ko = {
             { text: '3.1 공명 풀의 철학적 기초', link: '/ko/whitepaper/chapter3/section1' },
             { text: '3.2 4차원 공명 구조', link: '/ko/whitepaper/chapter3/section2' },
             { text: '3.3 공명 증폭 원리', link: '/ko/whitepaper/chapter3/section3' },
-            { text: '3.4 참여 과정', link: '/ko/whitepaper/chapter3/section4' }
+            { text: '3.4 공명 과정', link: '/ko/whitepaper/chapter3/section4' }
           ]
         },
         {

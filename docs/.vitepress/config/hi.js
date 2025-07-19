@@ -32,7 +32,7 @@ export const hi = {
             { text: '3.1 अनुनाद पूल की दार्शनिक नींव', link: '/hi/whitepaper/chapter3/section1' },
             { text: '3.2 चार-आयामी अनुनाद संरचना', link: '/hi/whitepaper/chapter3/section2' },
             { text: '3.3 अनुनाद प्रवर्धन सिद्धांत', link: '/hi/whitepaper/chapter3/section3' },
-            { text: '3.4 सहभागिता प्रक्रिया', link: '/hi/whitepaper/chapter3/section4' }
+            { text: '3.4 अनुनाद प्रक्रिया', link: '/hi/whitepaper/chapter3/section4' }
           ]
         },
         {

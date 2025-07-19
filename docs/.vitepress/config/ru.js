@@ -32,7 +32,7 @@ export const ru = {
             { text: '3.1 Философские основы резонансного пула', link: '/ru/whitepaper/chapter3/section1' },
             { text: '3.2 Четырехмерная резонансная структура', link: '/ru/whitepaper/chapter3/section2' },
             { text: '3.3 Принцип усиления резонанса', link: '/ru/whitepaper/chapter3/section3' },
-            { text: '3.4 Процесс участия', link: '/ru/whitepaper/chapter3/section4' }
+            { text: '3.4 Процесс резонанса', link: '/ru/whitepaper/chapter3/section4' }
           ]
         },
         {

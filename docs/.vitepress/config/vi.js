@@ -32,7 +32,7 @@ export const vi = {
             { text: '3.1 Nền tảng Triết học của Bể Cộng hưởng', link: '/vi/whitepaper/chapter3/section1' },
             { text: '3.2 Cấu trúc Cộng hưởng Bốn chiều', link: '/vi/whitepaper/chapter3/section2' },
             { text: '3.3 Nguyên lý Khuếch đại Cộng hưởng', link: '/vi/whitepaper/chapter3/section3' },
-            { text: '3.4 Quy trình Tham gia', link: '/vi/whitepaper/chapter3/section4' }
+            { text: '3.4 Quy trình Cộng hưởng', link: '/vi/whitepaper/chapter3/section4' }
           ]
         },
         {

@@ -32,7 +32,7 @@ export const ja = {
             { text: '3.1 共鳴プールの哲学的基盤', link: '/ja/whitepaper/chapter3/section1' },
             { text: '3.2 四次元共鳴構造', link: '/ja/whitepaper/chapter3/section2' },
             { text: '3.3 共鳴増幅原理', link: '/ja/whitepaper/chapter3/section3' },
-            { text: '3.4 参加プロセス', link: '/ja/whitepaper/chapter3/section4' }
+            { text: '3.4 共鳴プロセス', link: '/ja/whitepaper/chapter3/section4' }
           ]
         },
         {

@@ -32,7 +32,7 @@ export const en = {
             { text: '3.1 Philosophical Foundation of Resonance Pool', link: '/whitepaper/chapter3/section1' },
             { text: '3.2 Four-Dimensional Resonance Structure', link: '/whitepaper/chapter3/section2' },
             { text: '3.3 Resonance Amplification Principle', link: '/whitepaper/chapter3/section3' },
-            { text: '3.4 Participation Process', link: '/whitepaper/chapter3/section4' }
+            { text: '3.4 Resonance Process', link: '/whitepaper/chapter3/section4' }
           ]
         },
         {
