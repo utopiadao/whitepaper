@@ -16,8 +16,14 @@ hero:
     "Nada es eterno, solo los pensamientos perduran"
   actions:
     - theme: brand
-      text: Despertar Intelectual
+      text: Selección de 36 Nodos Génesis
       link: /es/awakening/
+    - theme: alt
+      text: Libro Blanco
+      link: /es/whitepaper/
+    - theme: alt
+      text: Modelo Económico
+      link: /es/economics/
 ---
 
 <ParticlesBackground />

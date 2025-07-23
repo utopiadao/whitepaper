@@ -16,8 +16,14 @@ hero:
     "永遠なものは何もない、思想のみが残る"
   actions:
     - theme: brand
-      text: 知的覚醒
+      text: 36創世ノード選抜
       link: /ja/awakening/
+    - theme: alt
+      text: ホワイトペーパー
+      link: /ja/whitepaper/
+    - theme: alt
+      text: 経済モデル
+      link: /ja/economics/
 ---
 
 <ParticlesBackground />

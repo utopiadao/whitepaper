@@ -16,8 +16,14 @@ hero:
     "Ничто не вечно, только мысли остаются"
   actions:
     - theme: brand
-      text: Интеллектуальное Пробуждение
+      text: Отбор 36 узлов Genesis
       link: /ru/awakening/
+    - theme: alt
+      text: Белая книга
+      link: /ru/whitepaper/
+    - theme: alt
+      text: Экономическая модель
+      link: /ru/economics/
 ---
 
 <ParticlesBackground />

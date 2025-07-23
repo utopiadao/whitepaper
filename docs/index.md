@@ -16,8 +16,14 @@ hero:
     "Nothing is eternal, only thoughts endure"
   actions:
     - theme: brand
-      text: Intellectual Awakening
+      text: 36 Genesis Node Selection
       link: /awakening/
+    - theme: alt
+      text: Whitepaper
+      link: /whitepaper/
+    - theme: alt
+      text: Economic Model
+      link: /economics/
 ---
 
 <ParticlesBackground />

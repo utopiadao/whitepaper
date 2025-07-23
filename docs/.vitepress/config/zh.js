@@ -5,7 +5,7 @@ export const zh = {
   themeConfig: {
     logo: '/logo/logo2.svg',
     nav: [
-      { text: '思想觉醒', link: '/zh/awakening/' },
+      { text: '36创世节点选拔', link: '/zh/awakening/' },
       { text: '白皮书', link: '/zh/whitepaper/' },
       { text: '经济模型', link: '/zh/economics/' }
     ],

@@ -16,8 +16,14 @@ hero:
     "Nulla è eterno, solo i pensieri resistono"
   actions:
     - theme: brand
-      text: Risveglio Intellettuale
+      text: Selezione dei 36 Nodi Genesis
       link: /it/awakening/
+    - theme: alt
+      text: Whitepaper
+      link: /it/whitepaper/
+    - theme: alt
+      text: Modello Economico
+      link: /it/economics/
 ---
 
 <ParticlesBackground />

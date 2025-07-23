@@ -5,7 +5,7 @@ export const ja = {
   themeConfig: {
     logo: '/logo/logo2.svg',
     nav: [
-      { text: '思想覚醒', link: '/ja/awakening/' },
+      { text: '36創世ノード選抜', link: '/ja/awakening/' },
       { text: 'ホワイトペーパー', link: '/ja/whitepaper/' },
       { text: '経済モデル', link: '/ja/economics/' }
     ],

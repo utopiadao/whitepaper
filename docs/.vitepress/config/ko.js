@@ -5,7 +5,7 @@ export const ko = {
   themeConfig: {
     logo: '/logo/logo2.svg',
     nav: [
-      { text: '사상각성', link: '/ko/awakening/' },
+      { text: '36 창세 노드 선발', link: '/ko/awakening/' },
       { text: '백서', link: '/ko/whitepaper/' },
       { text: '경제 모델', link: '/ko/economics/' }
     ],

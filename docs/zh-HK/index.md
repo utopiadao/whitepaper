@@ -16,8 +16,14 @@ hero:
     "沒有什麼是永恆的，唯有思想長存"
   actions:
     - theme: brand
-      text: 思想覺醒
+      text: 36創世節點選拔
       link: /zh-hk/awakening/
+    - theme: alt
+      text: 白皮書
+      link: /zh-HK/whitepaper/
+    - theme: alt
+      text: 經濟模型
+      link: /zh-HK/economics/
 ---
 
 <ParticlesBackground />

@@ -16,8 +16,14 @@ hero:
     "Nichts ist ewig, nur Gedanken bleiben bestehen"
   actions:
     - theme: brand
-      text: Geistiges Erwachen
+      text: 36 Genesis-Knoten-Auswahl
       link: /de/awakening/
+    - theme: alt
+      text: Whitepaper
+      link: /de/whitepaper/
+    - theme: alt
+      text: Wirtschaftsmodell
+      link: /de/economics/
 ---
 
 <ParticlesBackground />

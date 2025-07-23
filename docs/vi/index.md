@@ -16,8 +16,14 @@ hero:
     "Không có gì là vĩnh cửu, chỉ có tư tưởng tồn tại mãi"
   actions:
     - theme: brand
-      text: Thức Tỉnh Trí Tuệ
+      text: Tuyển chọn 36 Node Genesis
       link: /vi/awakening/
+    - theme: alt
+      text: Sách trắng
+      link: /vi/whitepaper/
+    - theme: alt
+      text: Mô hình Kinh tế
+      link: /vi/economics/
 ---
 
 <ParticlesBackground />

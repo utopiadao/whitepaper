@@ -16,8 +16,14 @@ hero:
     "Tidak ada yang abadi, hanya pemikiran yang bertahan"
   actions:
     - theme: brand
-      text: Kebangkitan Intelektual
+      text: Pemilihan 36 Node Genesis
       link: /id/awakening/
+    - theme: alt
+      text: Whitepaper
+      link: /id/whitepaper/
+    - theme: alt
+      text: Model Ekonomi
+      link: /id/economics/
 ---
 
 <ParticlesBackground />

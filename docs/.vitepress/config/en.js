@@ -5,7 +5,7 @@ export const en = {
   themeConfig: {
     logo: '/logo/logo2.svg',
     nav: [
-      { text: 'Awakening', link: '/awakening/' },
+      { text: '36 Genesis Node Selection', link: '/awakening/' },
       { text: 'Whitepaper', link: '/whitepaper/' },
       { text: 'Economic Model', link: '/economics/' }
     ],

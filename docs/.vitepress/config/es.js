@@ -5,7 +5,7 @@ export const es = {
   themeConfig: {
     logo: '/logo/logo2.svg',
     nav: [
-      { text: 'Despertar', link: '/es/awakening/' },
+      { text: 'Selección de 36 Nodos Génesis', link: '/es/awakening/' },
       { text: 'Libro Blanco', link: '/es/whitepaper/' },
       { text: 'Modelo Económico', link: '/es/economics/' }
     ],

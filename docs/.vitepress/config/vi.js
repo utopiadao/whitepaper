@@ -5,7 +5,7 @@ export const vi = {
   themeConfig: {
     logo: '/logo/logo2.svg',
     nav: [
-      { text: 'Thức Tỉnh', link: '/vi/awakening/' },
+      { text: 'Tuyển chọn 36 Node Genesis', link: '/vi/awakening/' },
       { text: 'Sách Trắng', link: '/vi/whitepaper/' },
       { text: 'Mô hình Kinh tế', link: '/vi/economics/' }
     ],

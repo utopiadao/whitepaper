@@ -5,7 +5,7 @@ export const ru = {
   themeConfig: {
     logo: '/logo/logo2.svg',
     nav: [
-      { text: 'Пробуждение', link: '/ru/awakening/' },
+      { text: 'Отбор 36 узлов Genesis', link: '/ru/awakening/' },
       { text: 'Белая книга', link: '/ru/whitepaper/' },
       { text: 'Экономическая модель', link: '/ru/economics/' }
     ],

@@ -16,8 +16,14 @@ hero:
     "कुछ भी शाश्वत नहीं है, केवल विचार स्थायी हैं"
   actions:
     - theme: brand
-      text: बौद्धिक जागृति
+      text: 36 जेनेसिस नोड चयन
       link: /hi/awakening/
+    - theme: alt
+      text: श्वेतपत्र
+      link: /hi/whitepaper/
+    - theme: alt
+      text: आर्थिक मॉडल
+      link: /hi/economics/
 ---
 
 <ParticlesBackground />

@@ -16,8 +16,14 @@ hero:
     "Rien n'est éternel, seules les pensées demeurent"
   actions:
     - theme: brand
-      text: Éveil Intellectuel
+      text: Sélection des 36 Nœuds Genèse
       link: /fr/awakening/
+    - theme: alt
+      text: Livre Blanc
+      link: /fr/whitepaper/
+    - theme: alt
+      text: Modèle Économique
+      link: /fr/economics/
 ---
 
 <ParticlesBackground />

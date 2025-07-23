@@ -16,8 +16,14 @@ hero:
     "لا شيء يدوم إلى الأبد، سوى الأفكار"
   actions:
     - theme: brand
-      text: الصحوة الفكرية
+      text: اختيار 36 عقدة التكوين
       link: /ar/awakening/
+    - theme: alt
+      text: ورقة بيضاء
+      link: /ar/whitepaper/
+    - theme: alt
+      text: النموذج الاقتصادي
+      link: /ar/economics/
 ---
 
 <ParticlesBackground />

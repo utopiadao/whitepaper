@@ -16,8 +16,14 @@ hero:
     "영원한 것은 없다, 오직 사상만이 지속된다"
   actions:
     - theme: brand
-      text: 지적 각성
+      text: 36 창세 노드 선발
       link: /ko/awakening/
+    - theme: alt
+      text: 백서
+      link: /ko/whitepaper/
+    - theme: alt
+      text: 경제 모델
+      link: /ko/economics/
 ---
 
 <ParticlesBackground />
