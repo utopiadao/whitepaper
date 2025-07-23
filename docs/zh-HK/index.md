@@ -17,7 +17,7 @@ hero:
   actions:
     - theme: brand
       text: 36創世節點選拔
-      link: /zh-hk/awakening/
+      link: /zh-HK/awakening/
     - theme: alt
       text: 白皮書
       link: /zh-HK/whitepaper/
