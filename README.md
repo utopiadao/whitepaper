@@ -31,4 +31,4 @@ This is not only a financial revolution but also an ideological revolution. Utop
 
 ## Read Online
 
-Visit: https://utopiadao.github.io/utopia-whitepaper/
+Visit: https://utopiadao.github.io/whitepaper/

@@ -352,7 +352,7 @@ export default defineConfig({
   },
   
   // 构建配置
-  base: '/utopia-whitepaper/',
+  base: '/whitepaper/',
   
   // Vite 配置
   vite: {
