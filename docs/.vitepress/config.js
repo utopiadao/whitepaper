@@ -372,7 +372,15 @@ export default defineConfig({
     ['meta', { name: 'og:site_name', content: 'UTOPIA Whitepaper' }],
     ['meta', { name: 'og:image', content: '/images/og-image.png' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { name: 'twitter:image', content: '/images/og-image.png' }]
+    ['meta', { name: 'twitter:image', content: '/images/og-image.png' }],
+    // Google Analytics
+    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-KSZ7731XT1' }],
+    ['script', {}, `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-KSZ7731XT1');
+    `]
   ],
 
   // 最后更新时间
